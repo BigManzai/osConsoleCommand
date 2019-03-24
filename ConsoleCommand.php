@@ -26,23 +26,23 @@
 	
 <!-- Server Einstellung --> 
 	<div class="w3-row w3-section">
-	<p><label class="w3-text"><i class="glyphicon glyphicon-user"></i></label></p>
+	<p><label class="w3-text"><i class="fa fa-cogs" style="font-size:48px;color:grey"></i></label></p>
 	
-    <p><label for="base" class="w3-label control-label"><i class="fa fa-pencil"></i>  Server IP:</b></label></p>
+    <p><label for="base" class="w3-label control-label"><i class="fa fa-pencil" style="font-size:24px"></i>  Server IP:</b></label></p>
         <div class="w3-third">
             <p><input class="w3-input w3-border" type="text" placeholder="Server IP" name="Server_IP"/></p>
         </div>
     </div>
  
 	<div class="w3-row w3-section">
-    <p><label for="base" class="w3-label control-label"><i class="fa fa-pencil"></i>  Server Port:</b></label></p>
+    <p><label for="base" class="w3-label control-label"><i class="fa fa-pencil" style="font-size:24px"></i>  Server Port:</b></label></p>
         <div class="w3-third">
             <p><input class="w3-input w3-border" type="text" placeholder="Server Port" name="Server_Port"/></p>
         </div>
     </div>
 
  	<div class="w3-row w3-section">
-    <p><label for="base" class="w3-label control-label"><i class="fa fa-pencil"></i>  Server Password:</b></label></p>
+    <p><label for="base" class="w3-label control-label"><i class="fa fa-pencil" style="font-size:24px"></i>  Server Password:</b></label></p>
         <div class="w3-third">
             <p><input class="w3-input w3-border" type="password" placeholder="Server Password" name="Server_Password"/></p>
         </div>
@@ -51,9 +51,9 @@
 
 <!-- Command Eingabe --> 
  	<div class="w3-row w3-section">
-	<p><label class="w3-text"><i class="glyphicon glyphicon-file"></i></label></p>
+	<p><label class="w3-text"><i class="glyphicon glyphicon-file" style="font-size:48px;color:grey"></i></label></p>
 	
-    <p><label for="base" class="w3-label control-label"><i class="fa fa-pencil"></i>  Server Command:</b></label></p>
+    <p><label for="base" class="w3-label control-label"><i class="fa fa-pencil" style="font-size:24"></i>  Server Command:</b></label></p>
         <div class="w3-third">
             <input class="w3-input w3-border w3-light-grey" type="text" placeholder="Server Command" name="Server_Command"/>
         </div>
@@ -65,7 +65,7 @@
 	
     <div class="w3-row w3-section">
 
-            <button class="w3-btn w3-blue-grey w3-third" type="submit" name="submit"><i class="fa fa-mail-forward"></i>  SendCommand</button>
+            <button class="w3-btn w3-blue-grey w3-third" type="submit" name="submit"><i class="fa fa-mail-forward" style="font-size:24px"></i>  SendCommand</button>
 
     </div>
 	
@@ -100,4 +100,3 @@ if (isset($_POST['telefon']) AND $_POST['telefon'] == 1)
 </div>
 </body>
 </html>	
-<?php
