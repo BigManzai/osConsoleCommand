@@ -65,8 +65,8 @@
 	
     <div class="w3-row w3-section">
 	<div class="w3-third">
-        <button class="w3-btn w3-blue-grey w3-half" type="submit" name="submit"><i class="fa fa-mail-forward" style="font-size:24px"></i>  Send OpenSim Command</button>
-		<button class="w3-btn w3-blue-grey w3-half" type="reset" name="Reset"><i class="fa fa-mail-reply" style="font-size:24px"></i>  Data Reset</button>
+        <button class="w3-btn w3-blue-grey w3-half w3-border" type="submit" name="submit"><i class="fa fa-mail-forward" style="font-size:24px"></i>  Send OpenSim Command</button>
+		<button class="w3-btn w3-blue-grey w3-half w3-border" type="reset" name="Reset"><i class="fa fa-mail-reply" style="font-size:24px"></i>  Data Reset</button>
 	</div>
     </div>
 	
