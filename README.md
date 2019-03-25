@@ -3,8 +3,7 @@ OpenSimulator Console Command PHP
 
 Status OK
 
-[File:https://github.com/BigManzai/osConsoleCommand/blob/master/ConsoleCommands.png|OpenSimulator Console Command PHP]
-[[File:Example.jpg|50px]]
+![Title](https://github.com/BigManzai/osConsoleCommand/blob/master/ConsoleCommands.png)
 
 Config Opensim.ini:
 
