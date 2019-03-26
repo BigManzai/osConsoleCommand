@@ -1,6 +1,6 @@
 <!DOCTYPE html><html><head><meta charset="utf-8">
 <!-- 
-	OpenSim Console Commands V1.02 by Manfred Aabye
+	OpenSim Console Commands V1.03 by Manfred Aabye
  -->
 <title>OS Console</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,8 +19,8 @@
 
 <!-- Sidebar -->
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="width:300px;display:none" id="commandsbar">
-  <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close &times;</button>
-	<span class="w3-bar-item">alert</span>
+  <button onclick="w3_close()" class="w3-bar-item w3-button w3-large"><b>Close &times;</b></button>
+	<span class="w3-bar-item"><b>alert</span>
 	<span class="w3-bar-item">alert-user</span>
 	<span class="w3-bar-item">appearance find</span>
 	<span class="w3-bar-item">appearance rebake</span>
@@ -142,7 +142,8 @@
 	<span class="w3-bar-item">wind SimpleRandomWind strength</span>
 	<span class="w3-bar-item">windlight disable</span>
 	<span class="w3-bar-item">windlight enable</span>
-	<span class="w3-bar-item">windlight load</span>
+	<span class="w3-bar-item">windlight load</b></span>
+	<button onclick="w3_close()" class="w3-bar-item w3-button w3-large"><b>Close &times;</b></button>
 	<span class="w3-bar-item">.</span>
 	<span class="w3-bar-item">.</span>
 </div>
@@ -177,7 +178,6 @@
         </div>
     </div>
 	
-
 <!-- Command Eingabe --> 
  	<div class="w3-row w3-section">
 	<p><label class="w3-text"><i class="glyphicon glyphicon-file" style="font-size:48px;color:grey"></i></label></p>
@@ -234,6 +234,8 @@ senden();
 <script>
 function w3_open() {
   document.getElementById("commandsbar").style.display = "block";
+  document.getElementById("commandsbar").style.backgroundImage = "url('opensimulator.png')";
+  document.getElementById("commandsbar").style.backgroundSize = "90% 95%";
 }
 
 function w3_close() {
