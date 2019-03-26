@@ -14,4 +14,6 @@ Config Opensim.ini:
 
 more Information:
 
-http://opensimulator.org/wiki/RemoteAdmin
+Remote Admin interface: http://opensimulator.org/wiki/RemoteAdmin
+
+Server commands: http://opensimulator.org/wiki/Server_Commands
